@@ -1,0 +1,65 @@
+/* 
+#5A0001 RED
+#D0ADA7 PINK
+#DDFFF7 WHITE
+#1E555C BLUE
+#419D78 GREEN */
+html{
+    font-family: 'Nunito', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: rgb(174, 124, 232);
+}
+.titulos{
+    text-transform: uppercase;
+}
+
+.container {
+    background: #ED213A;
+    background: -webkit-linear-gradient(to top, #93291E, #ED213A);
+    background: linear-gradient(to top, #93291E, #ED213A);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.content {
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    border-radius: 4px;
+}
+.paragraph {
+    line-height: 1.2em;
+    font-weight: 400;
+}
+.fa-star{
+    color: #ffc400;
+}
+.table{
+    width: 100%;
+    border-spacing: 0;
+}
+.table td,.table th{
+    padding: 1em;
+    text-align: left;
+}
+.table tr:nth-child(even){
+    background-color: #ED213A;
+}
+
+.title-item{
+    border-bottom: solid 2px #ED213A;
+    padding-bottom: 1em;
+}
+.position{
+    background-color: #ED213A;
+    color: white;
+    padding: 10px;
+    border-radius: 4px !important;
+}
+
